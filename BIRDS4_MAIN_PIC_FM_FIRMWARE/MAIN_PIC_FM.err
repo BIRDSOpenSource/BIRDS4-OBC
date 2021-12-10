@@ -1,0 +1,9 @@
+Compiling D:\TEC\Delta\BIRDS Open Source\BIRDS4_documents\1_Source codes\BIRDS4_Open_FM_final\MAIN_PIC_FM\MAIN_PIC_FM on 16-Aug-21 at 16:40
+*** Error 24 "D:\Program Files (x86)\PICC\Devices\18F67J94.h" Line 11(9,20): Unknown device type    -- Try PCH
+      1 Errors,  0 Warnings.
+Build Failed.
+Compiling D:\TEC\Delta\BIRDS Open Source\BIRDS4_documents\1_Source codes\BIRDS4_Open_FM_final\MAIN_PIC_FM\MAIN_PIC_FM on 16-Aug-21 at 16:40
+>>> Warning 216 "D:\TEC\Delta\BIRDS Open Source\BIRDS4_documents\1_Source codes\BIRDS4_Open_FM_final\MAIN_PIC_FM\MAIN_PIC_FM.c" Line 278(1,2): Interrupts disabled during call to prevent re-entrancy:  (@DIV88)
+      Memory usage:   ROM=53%      RAM=24% - 26%
+      0 Errors,  1 Warnings.
+Build Successful.

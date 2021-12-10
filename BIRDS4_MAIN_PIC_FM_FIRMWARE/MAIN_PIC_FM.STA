@@ -1,0 +1,539 @@
+
+ROM used:   69294/131056 (53%)
+            69960/131056 (53%) including unused fragments
+
+            7.6 Average locations per line
+            17.2 Average locations per statement
+
+RAM used:   857/3578 (24%) at main() level
+            940/3578 (26%) worst case
+
+Stack used: 12 worst case (10 in main + 2 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  281   167   4  MAIN_PIC_FM.c
+  181     0   0  MAIN_PIC_FM.h
+ 1487     0   0  ..\..\..\..\..\..\..\Program Files (x86)\PICC\Devices\18F67J94.h
+  323     0   0  PIC18F67J94_registers.h
+   70     0   0  mainpic_function.h
+  824   219   5  flash_ memory_ MT25QL01GBBB_OF.c
+ 1037   629  16  MEMORY_OPERATION.c
+  417   261   6  reserve_function.c
+  123    67   2  SATELLITE_LOG.c
+  194   105   3  FLASH_OPERATION.c
+ 2753  1561  39  mainpic_function.c
+  500   338   8  AUTO_MSN.c
+  930   677  17  analyze_command.c
+----- -----
+ 9120  4024 Total
+
+Page ROM  %  RAM    Vol Diff  Functions:
+---- --- --- ---    --- ----  ----------
+0     30   0    0             @FLASHWR
+0     42   1    1             @delay_ms1
+0      8   0    0             @PUTCHARI_BIU_1
+0     12   0    0             @PUTCHARI_BIU_2
+0     28   0    0             @GETCH_BIU_2
+0     12   0    0             @PUTCHARI_BIU_3
+0     28   0    0             @GETCH_BIU_3
+0     12   0    0             @PUTCHARI_BIU_4
+0     28   0    0             @GETCH_BIU_4
+0     70   1    1             @PUTCHAR_5_
+0     74   1    1             @GETCH_5_
+0     70   1    1             @PUTCHAR_6_
+0     74   1    1             @GETCH_6_
+0     70   1    1             @PUTCHAR_7_
+0     74   1    1             @GETCH_7_
+0     60   1    6             @SPI_XFER_1
+0     60   1    6             @SPI_XFER_2
+0     60   1    6             @SPI_XFER_3
+0     28   0    0     69  1.9  WRITE_ENABLE_OF
+0     28   0    0     69  1.9  WRITE_ENABLE_SCF
+0     28   0    0     69  1.9  WRITE_ENABLE_SMF
+0    186   2   13    798  5.1  sector_erase_OF
+0    186   2   13    798  5.1  sector_erase_SCF
+0    186   2   13    798  5.1  sector_erase_SMF
+0    174   2   13    798  5.1  SUBSECTOR_4KB_ERASE_OF
+0    174   2   13    798  5.1  SUBSECTOR_4KB_ERASE_SCF
+0    186   2   13    798  5.1  SUBSECTOR_4KB_ERASE_SMF
+0    148   2   14    774  5.2  WRITE_DATA_BYTE_OF
+0    148   2   14    774  5.2  WRITE_DATA_BYTE_SCF
+0    148   2   14    774  5.2  WRITE_DATA_BYTE_SMF
+0    154   2   14    762  5.2  READ_DATA_BYTE_OF
+0    154   2   14    762  5.2  READ_DATA_BYTE_SCF
+0    154   2   14    762  5.2  READ_DATA_BYTE_SMF
+0    116   2   13    163  4.5  TRANSFER_DATA_NBYTE_TOPC_OF
+0    122   2   13    176  4.3  TRANSFER_DATA_NBYTE_TOPC_SCF
+0     70   1    2             @PRINTF_X_115200_31766_31767
+0    146   2   17    200  5.0  TRANSFER_DATA_NBYTE_SMFtoOF
+0    146   2   17    202  4.7  TRANSFER_DATA_NBYTE_SMFtoSCF
+0    962  13    0    872  2.4  CURRENT_FLAG_STATUS
+0     20   0    0             @const1563
+0     50   1    4             @PSTRINGCN_115200_31766_31767
+0     20   0    0             @const1566
+0     20   0    0             @const1567
+0     20   0    0             @const1568
+0     24   0    0             @const1569
+0     14   0    0             @const1570
+0     14   0    0             @const1571
+0     16   0    0             @const1572
+0     14   0    0             @const1573
+0     18   0    0             @const1574
+0     16   0    0             @const1575
+0     14   0    0             @const1576
+0     14   0    0             @const1577
+0     18   0    0             @const1578
+0     20   0    0             @const1579
+0     28   0    0             @const1580
+0     22   0    0             @const1581
+0   1626  22   15   1511  2.9  CURRENT_ADDRESS_OF_FLASH
+0     28   0    0             @const1583
+0     30   0    0             @const1584
+0     38   1    0             @const1585
+0     34   0    0             @const1586
+0     24   0    0             @const1587
+0     26   0    0             @const1588
+0     26   0    0             @const1589
+0     32   0    0             @const1590
+0     28   0    0             @const1591
+0     32   0    0             @const1592
+0     32   0    0             @const1593
+0     18   0    0             @const1594
+0     24   0    0     22  1.3  ERASE_EEPROM_INFO
+0   1766  23    6   2119  4.0  WRITE_FLAG_to_EEPROM
+0     22   0    0             @FLASHLOAD
+0   2588  34    5   2650  5.5  MAKE_FLAG_from_EEPROM
+0     20   0    0             @const1600
+0     20   0    0             @const1601
+0     20   0    0             @const1602
+0     20   0    0             @const1603
+0     24   0    0             @const1604
+0     14   0    0             @const1605
+0     14   0    0             @const1606
+0     16   0    0             @const1607
+0     14   0    0             @const1608
+0     18   0    0             @const1609
+0     16   0    0             @const1610
+0     14   0    0             @const1611
+0     14   0    0             @const1612
+0     18   0    0             @const1613
+0     20   0    0             @const1614
+0     22   0    0             @const1615
+0    202   3   13    219  5.3  TAKE_AD_INFO_from_EEPROM
+0    512   7    6   1936  5.9  STORE_FLAG_INFO
+0     28   0    0             @const1622
+0     42   1    3             @PSTRINGC_115200_31766_31767
+0     46   1    0    396  2.4  RESET_FLAG_DATA
+0    584   8    6   2085  6.9  READ_WRTITING_ADDRESS_LOCATION
+0     30   0    0             @const1631
+0    724  10   16   1541  7.9  CHANGE_ADDRESS_WRITING_LOCATION
+0     18   0    0             @const1634
+0     24   0    0             @const1637
+0     98   1    7    127  4.2  TAKE_FLAG_INFO_FROM_OF
+0    682   9    6   3557  5.9  STORE_ADRESS_DATA_TO_FLASH
+0     36   0    0             @const1642
+0     30   0    0             @const1644
+0     98   1    7    127  4.2  TAKE_ADDRESS_DATA_FROM_OF
+0    106   1    7    171  4.4  TAKE_ADDRESS_DATA_FROM_SCF
+0    102   1    7    149  4.3  TAKE_ADDRESS_DATA_FROM_SMF
+0    110   1    0   1009  4.4  MAKE_FLAG_INFO
+0    162   2    0   1381  3.4  MAKE_ADDRESS_DATA
+0    136   2    3    516  7.6  CHECK_FLAG_INFO
+0    402   5    3   1580  6.9  CHECK_ADDRESS_DATA
+0   2156  29    6   2519  6.4  MEMORY_ERASE
+0     28   0    0             @const1663
+0     26   0    0             @const1665
+0     22   0    0             @const1667
+0     44   1    3             @DIV88
+0    218   3    6             @PRINTF_D_115200_31766_31767
+0    106   1    0    270  4.1  LOOP_SAT_LOG
+0     92   1    0    282  4.2  LOOP_CAM_ADDRESS
+0    320   4    8    647  6.6  LOOP_FAB_HK_ADDRESS
+0     22   0    0             @const1678
+0    336   4    8    632  6.6  LOOP_FAB_CW_ADDRESS
+0     22   0    0             @const1681
+0    396   5    5    876  7.1  LOOP_ADCS_SENSOR_ADDRESS
+0     22   0    0             @const1683
+0     22   0    0             @const1687
+0    514   7    4    860  5.6  LOOP_HIGH_SAMP_HK_ADDRESS
+0     22   0    0             @const1689
+0     40   1    3    136  3.9  initialize_table
+0     56   1    3    224  6.7  count_reservation
+0    800  11   13   2028  6.3  sort_table
+0    574   8    6    907  5.3  Save_RSV
+0     66   1    3    425  4.3  table_refresh
+0    190   3    7   1008  7.3  Get_RSV
+0    560   7    2    656  5.2  Disp_RSV
+0     22   0    0             @const1714
+0     30   0    0             @const1715
+0     28   0    0             @const1716
+0     28   0    0             @const1717
+0     36   0    0             @const1718
+0     34   0    0             @const1719
+0     24   0    0             @const1720
+0     18   0    0             @const1721
+0    530   7    4   2009  7.8  input_reservation_COM
+0     32   0    0             @const1722
+0    590   8    4   2095  7.8  input_reservation_PC
+0     16   0    0             @const1724
+0     32   0    0             @const1725
+0    158   2    4    709  6.2  Remove_1_Reservation
+0     34   0    0             @const1728
+0     80   1    0    476  4.2  Reserve_command_COM
+0     24   0    0             @const1730
+0     80   1    0    476  4.2  Reserve_command_PC
+0     22   0    0             @const1731
+0     54   1    0    315  2.7  Reserve_next
+0     16   0    0             @const1732
+0     62   1    8     82  3.6  waiting
+0     34   0    3    104  3.7  DELETE_RESET
+0    464   6    5    666  4.7  SEND_CMD_FOR_RESET_SATELLITE
+0     16   0    0             @const1742
+0     26   0    0     78  2.6  RESET_SATELLITE
+0     74   1    1    251  5.6  COLLECT_RESET_DATA
+0    324   4    9   1148  6.5  SAVE_SAT_LOG
+0     18   0    0             @const1751
+0    178   2   12    401  4.2  REFRESH_SECTOR_OF
+0     20   0    0             @const1757
+0    186   2   12    455  4.2  REFRESH_SECTOR_SCF
+0     22   0    0             @const1767
+0    182   2   12    428  4.2  REFRESH_SECTOR_SMF
+0     22   0    0             @const1777
+0    380   5   24    815  7.3  TRANSFER_SECTOR_OF2SCF
+0     28   0    0             @const1787
+0    378   5   24    785  7.3  TRANSFER_SECTOR_OF2SMF
+0     28   0    0             @const1798
+0    380   5   24    815  7.3  TRANSFER_SECTOR_SCF2OF
+0     28   0    0             @const1809
+0    386   5   24    845  7.3  TRANSFER_SECTOR_SCF2SMF
+0     28   0    0             @const1820
+0    378   5   24    785  7.3  TRANSFER_SECTOR_SMF2OF
+0     28   0    0             @const1831
+0    384   5   24    845  7.3  TRANSFER_SECTOR_SMF2SCF
+0     28   0    0             @const1842
+0    180   2    4    543  7.5  GIVE_ACCESS_SCF_Nsec
+0     34   0    0             @const1855
+0     28   0    0             @const1857
+0     34   0    3    104  3.7  DELETE_CMD_FROM_PC
+0     38   1    3    147  3.9  Delete_Buffer
+0     28   0    0    163  2.2  BC_SETUP
+0    488   6    4    569  6.8  CHECK_BC_TEMP
+0     56   1    2             @ITOF
+0    246   3   11             @MULFF
+0    352   5   14             @DIVFF
+0    632   8   16             @ADDFF
+0     22   0    0             @const1879
+0     68   1    5             @FTOSD
+0    148   2   13             @DIV3232
+0    416   6   13             @PRINTF_L32D_115200_31766_31767FPFPF
+0    122   2   10             @FLT
+0     56   1    0    190  3.1  MEASURE_BC_TEMP
+0      8   0    0     24  1.0  Turn_ON_BC
+0      6   0    0     24  1.0  Turn_OFF_BC
+0    460   6    6   1015  8.3  BC_OPERATION
+0     16   0    0             @const1893
+0     16   0    0             @const1898
+0     34   0    0             @const1899
+0     20   0    0     53  1.9  CLEAR_BC_FLAG
+0     32   0    0             @const1900
+0     22   0    0     53  1.9  MAKE_BC_FLAG_1
+0     22   0    0             @const1901
+0     22   0    0     53  1.9  MAKE_BC_FLAG_2
+0     22   0    0             @const1902
+0     22   0    0     53  1.9  MAKE_BC_FLAG_3
+0     22   0    0             @const1903
+0     22   0    0     53  1.9  MAKE_BC_FLAG_4
+0     22   0    0             @const1904
+0    246   3    2    707  6.1  Antenna_Deploy
+0     26   0    0             @const1906
+0     32   0    0             @const1907
+0     38   1    3    104  3.7  REFLESH_CW_ACK_for_COM
+0     38   1    3    104  3.7  REFLESH_MSN_ACK_for_COM
+0    204   3    2    826  4.8  CW_RESPOND
+0     10   0    0             @const1924
+0     14   0    0     97  2.2  CHECK_50_and_CW_RESPOND
+0      6   0    0     24  1.0  Turn_On_ADCS
+0      6   0    0     24  1.0  Turn_Off_ADCS
+0     36   0    3    104  3.7  DELETE_ADCS_SENSOR
+0     14   0    0     47  1.3  ADCS_SETTINGS
+0     76   1    4    145  4.2  CHECK_ACK_FROM_ADCS_10k
+0    394   5   14   1174  7.4  GET_ADCS_SENSOR_DATA
+0     22   0    0             @const1937
+0     28   0    0             @const1940
+0     24   0    0             @const1942
+0     28   0    0             @const1943
+0    634   8   17   2057  7.9  ADCS_TLE_JOIN
+0     46   1    0             @goto43664
+0     10   0    0             @const1956
+0    654   9   17   1912  7.9  ADCS_GAIN_JOIN
+0     42   1    0             @goto43733
+0     10   0    0             @const1972
+0     34   0    3    114  3.8  Delete_in_HK
+0     34   0    3    114  3.8  Delete_HKDATA
+0     34   0    3    104  3.7  Delete_CWFORMAT
+0     24   0    1     70  2.6  CHECK_SUNSHINE
+0     80   1    2             @SITOF
+0    152   2   12    144  4.0  CONVERT_16bit_GYRO_to_8bit_X
+0     60   1    4             @SFTOI
+0    152   2   12    144  4.0  CONVERT_16bit_GYRO_to_8bit_Y
+0    152   2   12    144  4.0  CONVERT_16bit_GYRO_to_8bit_Z
+0     74   1    1    253  4.5  OPERATION_MODE_VALUE
+0    236   3    1   1536  5.9  MAKE_CW1_FORMAT
+0    158   2    0   1096  4.4  MAKE_CW2_FORMAT
+0     12   0    0     44  1.9  MAKE_CW_FORMAT
+0     10   0    1     42  2.1  Send_COMMAND_TO_FAB
+0    110   1    8    240  5.2  COMMAND_TO_FAB
+0     94   1   10    193  5.0  SAVE_HKDATA_TO_SCF
+0     24   0    4     43  1.7  Send_HKDATA_to_SCF
+0     90   1   10    170  4.9  SAVE_HKDATA_TO_SMF
+0     24   0    4     43  1.7  Send_HKDATA_to_SMF
+0     86   1   10    159  4.9  SAVE_HKDATA_TO_OF
+0     24   0    4     43  1.7  Send_HKDATA_to_OF
+0     92   1   10    193  5.0  SAVE_CWFORMAT_TO_SCF
+0     24   0    4     43  1.7  SEND_CWFORMAT_TO_SCF
+0     90   1   10    170  4.9  SAVE_CWFORMAT_TO_SMF
+0     40   1    4     74  2.0  SEND_CWFORMAT_TO_SMF
+0     14   0    0             @const2020
+0     56   1    4     74  2.0  SEND_CWFORMAT_TO_OF
+0    340   5   13    898  5.8  CHECK_HKDATA
+0     22   0    0             @const2025
+0    184   2    9    584  6.8  VERIFY_FABDATA
+0    338   4    9    838  7.2  GET_RESET_DATA
+0     24   0    0             @const2031
+0     28   0    0             @const2035
+0    124   2    5    302  5.1  MAKE_ADCS_HKDATA
+0     86   1    2    213  4.3  DISPLAY_CW
+0      8   0    0             @const2041
+0     46   1    0    475  2.9  SET_IDENTIFIER
+0    754  10    3   2217  6.4  FAB_TEST_OPERATION
+0     44   1    0             @const2046
+0     14   0    0             @const2047
+0     32   0    0             @const2052
+0     26   0    0             @const2053
+0    862  11    6   1274  5.4  GET_INITIAL_TIME
+0   1036  14   14   1908  8.2  GET_ADCS_MSN_DATA
+0    236   3    9             @PRINTF_LD_115200_31766_31767
+0    982  13   11   3772 11.2  ADCS_TEST_OPERATION
+0     16   0    0             @const2081
+0     26   0    0             @const2082
+0     46   1    0             @const2083
+0     18   0    0             @const2084
+0     20   0    0             @const2085
+0     30   0    0             @const2086
+0     20   0    0             @const2087
+0     24   0    0             @const2088
+0     20   0    0             @const2089
+0     58   1    0             @goto44481
+0      8   0    0             @const2092
+0     70   1    5             @DIV1616
+0     20   0    0             @const2096
+0     34   0    0             @const2097
+0     26   0    0             @const2098
+0     26   0    0             @const2100
+0    242   3    8    675  6.7  ADCS_TLE_TRANSFER
+0     16   0    0             @const2101
+0     26   0    0             @const2103
+0     24   0    0             @const2105
+0     34   0    0             @const2106
+0    230   3    8    675  6.7  ADCS_GAIN_TRANSFER
+0     16   0    0             @const2107
+0     26   0    0             @const2109
+0     26   0    0             @const2111
+0     34   0    0             @const2112
+0    300   4    8    822  6.8  ADCS_UTC_TRANSFER
+0     28   0    0             @const2113
+0     26   0    0             @const2114
+0      8   0    0             @const2116
+0     26   0    0             @const2119
+0     34   0    0             @const2120
+0    330   4   13   1217  5.8  ADCS_UTC_UPLINK
+0    326   4   11    706  6.3  GET_ADCS_FLASH
+0     22   0    0             @const2136
+0    192   3    7    658  5.3  ADCS_FLASH_CHECK
+0     36   0    0             @const2146
+0     26   0    0             @const2147
+0     34   0    0             @const2148
+0    312   4    9    712  5.3  CHECK_HIGH_SAMP_FABDATA
+0     22   0    0             @const2149
+0    136   2    5    469  6.1  VERIFY_HIGH_SAMP_FABDATA
+0    286   4    8    605  6.1  GET_HIGH_SAMP_RESET_DATA
+0     12   0    0             @const2154
+0     12   0    0             @const2156
+0     74   1    4    142  4.3  MAKE_HIGH_SAMP_ADCS_FORMAT
+0    336   4    6    607  5.3  SAVE_HIGH_SAMP_DATA_TO_EACH_MEMORY
+0    632   8    2   1678  6.8  HIGH_SAMP_FAB_OPERATION
+0     10   0    0             @const2161
+0     14   0    0             @const2162
+0     14   0    0             @const2168
+0      6   0    0     24  1.0  Turn_On_CAM
+0      6   0    0     24  1.0  Turn_Off_CAM
+0     64   1    1     80  2.0  Send_Command_to_CAM
+0     14   0    0             @const2170
+0     98   1    0    255  2.7  CAM_SETTINGS
+0     22   0    0             @const2172
+0     42   1    0             @const2173
+0     34   0    0             @const2174
+0     74   1    4    145  4.2  CHECK_ACK_FROM_CAM_10k
+0     78   1    4    145  4.2  CHECK_ACK_FROM_CAM_200k
+0   1072  14    5   2713  5.9  CAM_TEST_OPERATION
+0     36   0    0             @const2181
+0     26   0    0             @const2182
+0     34   0    0             @const2183
+0     36   0    0             @const2184
+0     20   0    0             @const2185
+0     54   1    0             @const2186
+0     28   0    0             @const2187
+0     20   0    0             @const2188
+0     18   0    0             @const2189
+0    324   4    2   1016  5.3  CAM_DEPLOYMENT_OPERATION
+0     36   0    0             @const2190
+0     26   0    0             @const2191
+0     36   0    0             @const2192
+0     36   0    0             @const2193
+0     20   0    0             @const2194
+0     28   0    0             @const2195
+0     20   0    0             @const2196
+0     18   0    0             @const2197
+0      6   0    0     24  1.0  Turn_On_MBP
+0      6   0    0     24  1.0  Turn_Off_MBP
+0    194   3    8    467  6.1  CHECK_ACK_FROM_DC_10k
+0     22   0    0             @const2203
+0     32   0    0             @const2204
+0    126   2    4    292  5.7  CHECK_ACK_FROM_MBP
+0     22   0    0             @const2207
+0     32   0    0             @const2208
+0     36   0    3    104  3.7  DELETE_MBP_DATA
+0    278   4    9    571  6.2  GET_MBP_DATA
+0     22   0    0             @const2216
+0    696   9   12   2334  5.1  DATACOLLECTION_TEST_OPERATION
+0     34   0    5             @MUL1616
+0     26   0    0             @const2230
+0     28   0    0             @const2231
+0     40   1    0             @const2232
+0     28   0    0             @const2233
+0    220   3    8    422  5.2  MBP_TLE_TRANSFER
+0      8   0    0             @const2235
+0     26   0    0             @const2238
+0    444   6    8   1751  5.1  MISSION_TEST_OPERATION
+0     26   0    0             @const2247
+0     40   1    0             @const2248
+0    594   8    1    662  3.3  MISSION_FLAG_STATUS
+0     22   0    0             @const2250
+0     26   0    0             @const2251
+0     18   0    0             @const2252
+0     18   0    0             @const2253
+0     18   0    0             @const2254
+0     20   0    0             @const2255
+0     18   0    0             @const2256
+0     20   0    0             @const2257
+0     18   0    0             @const2258
+0     84   1    0    165  3.7  Count_Kill_Flag
+0     20   0    0             @const2260
+0     76   1    0    134  2.4  Disable_Kill
+0     20   0    0             @const2262
+0    224   3    3    637  7.0  BC_ON_30min
+0     34   0    0             @const2264
+0    256   3   14    586  7.4  HIGHSAMP_SENSOR_COLLECTION
+0     12   0    0             @const2267
+0    280   4    5    945  6.5  REPLY_TO_COM
+0      8   0    0             @const2273
+0     10   0    0             @const2276
+0    336   4   11   1114  5.0  UPDATE_ACK_for_COM
+0     18   0    0             @const2282
+0     14   0    0             @const2283
+0    182   2    9             @PRINTF_LU_115200_31766_31767
+0     24   0    0             @const2286
+0    158   2   11    842  5.4  RSV_DATA_DOWNLOAD
+0    388   5    0   1144  4.8  MBP_SYNC
+0     30   0    0             @const2303
+0     28   0    0             @const2304
+0     16   0    0             @const2305
+0     20   0    0             @const2307
+0     24   0    0             @const2308
+0    242   3    0    620  2.8  CAM_SYNC
+0     10   0    0             @const2309
+0    142   2    0    346  4.2  DAY0
+0    138   2    0    346  4.2  DAY1
+0    300   4    1    978  4.4  DAY2
+0    298   4    1    947  4.4  DAY3to4
+0    122   2    0    370  3.8  DAY5
+0    120   2    0    344  3.7  DAY6
+0    330   4    1    944  4.4  DAY7
+0    126   2    0    370  3.8  DAY8
+0    148   2    0    477  3.8  DAY9
+0    148   2    0    477  3.8  DAY10
+0    354   5    1   1134  4.4  DAY11
+0    120   2    0    344  3.7  DAY12
+0    292   4    1    733  4.3  DAY13
+0    256   3    4    537  5.3  DAY14to16
+0     92   1   14             @MUL3232
+0    228   3    4    427  5.2  DAY17to27
+0    228   3    4    427  5.2  DAY28to30
+0    230   3    4    427  5.2  DAY31to35
+0    314   4    7    582  4.4  AUTO_MSN_AD_CHANGE
+0   1500  20    2   3375  8.4  AUTOMATICAL_MSN_EXE
+0    224   3    3    856  7.6  AUTOMATICAL_MISSION_CHECK
+0     18   0    0     78  2.6  UPLINK_SUCCESS_CHECK
+0     38   1    0    188  3.5  UPLINK_SUCCESS_ADCS
+0     38   1    0    188  3.5  UPLINK_SUCCESS_HSSC
+0     38   1    0    188  3.5  UPLINK_SUCCESS_MBP
+0     38   1    0    188  3.5  UPLINK_SUCCESS_CAM
+0   3390  45   13  18026  8.1  EXECUTE_MISSION_from_COM
+0     18   0    0             @const2358
+0     20   0    0             @const2359
+0     22   0    0             @const2362
+0     22   0    0             @const2363
+0     24   0    0             @const2364
+0     36   0    0             @const2365
+0     18   0    0             @const2366
+0     20   0    0             @const2367
+1   2854  38   13  14543  8.1  EXECUTE_MISSION_from_PC
+0     18   0    0             @const2376
+0     20   0    0             @const2377
+0     22   0    0             @const2380
+0     22   0    0             @const2381
+0     24   0    0             @const2382
+0     36   0    0             @const2383
+0     18   0    0             @const2384
+0     20   0    0             @const2385
+0     52   1    1    238  3.6  CHECK_MEMORY_FUNCTION
+0     96   1    0    202  3.1  intval
+0     36   0    2     88  2.9  UART1_RXD
+0     50   1    4     88  2.9  UART2_RXD
+0     70   1    4     88  2.9  UART3_RXD
+0     86   1    4    176  4.0  UART4_RXD
+0    142   2    0    685  3.3  settings
+1   1572  21    6   5081  9.0  MAIN
+0     18   0    0             @const2450
+0      6   0    0             @const2451
+0     24   0    0             @const2455
+0      4   0    0             @const2456
+0     28   0    0             @const2460
+0     16   0    0             @const2461
+0     28   0    0             @const2463
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               208
+    Statements              4024
+    Comments                3199
+    Volume (V)              337001
+    Difficulty (D)          987.6
+    Effort to implement (E) 332833284
+    Time to implement (T)   5136 hours, 19 minutes
+    Est Delivered Bugs (B)  160
+    Cyclomatic Complexity   443
+    Maintainability (MI)    74
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00004     6  0  
+00006-00006     0  2  
+00008-00192   396  0  
+00194-0FFFE  64466  666  
+10000-1FFEE  4426  61094  
+
+
+

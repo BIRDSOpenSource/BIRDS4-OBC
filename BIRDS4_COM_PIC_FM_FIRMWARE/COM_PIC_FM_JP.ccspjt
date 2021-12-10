@@ -1,0 +1,131 @@
+[PROJECT]
+Target=COM_PIC_FM_JP.hex
+Processor_Text=PIC16F1789
+CCSVerions=5.050
+Compiler=PCM
+CCSVersion=5.050
+[Target Data]
+FileList=COM_PIC_FM_JP.c
+[Directories]
+Include=
+[C:\Users\Adolfo\Desktop\JP\COM_PIC_FM_JP]
+Type=4
+[mru-list]
+1=COM_PIC_FM_JP.c
+
+[ProjectLog]
+Days=9
+D1=04-01-2020
+D1_L=6
+D1_L1=[65650]Project Opened.
+D1_L2=[65696]Started Editing.
+D1_L3=[66056]Stopped Editing.
+TotalEdit=50
+TotalDebug=0
+D1_E=2
+D1_D=0
+D1_L4=[66145]Project Closed.
+D1_L5=[67150]Project Opened.
+D1_L6=[67235]Project Closed.
+D2=09-01-2020
+D2_L=2
+D2_L1=[7020]Project Opened.
+D2_L2=[7050]Project Closed.
+D3=28-03-2020
+D3_L=8
+D3_L1=[41212]Project Opened.
+D3_L2=[41335]Started Editing.
+D3_L3=[41391]Stopped Editing.
+D3_E=2
+D3_D=0
+D3_L4=[41391]Project Closed.
+D3_L5=[42231]Project Opened.
+D3_L6=[42249]Started Editing.
+D3_L7=[42304]Stopped Editing.
+D3_L8=[42304]Project Closed.
+D4=30-03-2020
+D4_L=4
+D4_L1=[85826]Project Opened.
+D4_L2=[85940]Project Closed.
+D4_L3=[86132]Project Opened.
+D4_L4=[86174]Project Closed.
+D5=08-06-2020
+D5_L=2
+D5_L1=[76137]Project Opened.
+D5_L2=[76522]Project Closed.
+D6=07-08-2020
+D6_L=8
+D6_L1=[69044]Project Opened.
+D6_L2=[69100]Started Editing.
+D6_L3=[69149]Stopped Editing.
+D6_E=6
+D6_D=0
+D6_L4=[69149]Project Closed.
+D6_L5=[77936]Project Opened.
+D6_L6=[77999]Started Editing.
+D6_L7=[78267]Stopped Editing.
+D6_L8=[78267]Project Closed.
+D7=08-08-2020
+D7_L=10
+D7_L1=[36290]Project Opened.
+D7_L2=[36519]Started Editing.
+D7_L3=[36751]Stopped Editing.
+D7_E=11
+D7_D=0
+D7_L4=[36751]Project Closed.
+D7_L5=[38541]Project Opened.
+D7_L6=[38567]Started Editing.
+D7_L7=[39203]Stopped Editing.
+D7_L8=[40232]Started Editing.
+D7_L9=[40281]Stopped Editing.
+D7_L10=[40281]Project Closed.
+D8=07-06-2021
+D8_L=6
+D8_L1=[49403]Project Opened.
+D8_L2=[49762]Started Editing.
+D8_L3=[51422]Stopped Editing.
+D8_L4=[51432]Started Editing.
+D8_L5=[51719]Stopped Editing.
+D8_E=28
+D8_D=0
+D8_L6=[51719]Project Closed.
+D9=10-06-2021
+D9_L=6
+D9_L1=[63027]Project Opened.
+D9_L2=[63075]Started Editing.
+D9_L3=[63128]Stopped Editing.
+D9_E=1
+D9_D=0
+D9_L4=[63128]Project Closed.
+D9_L5=[65650]Project Opened.
+D9_L6=[66296]Project Closed.
+
+[Opened Files]
+1=COM_PIC_FM_JP.c
+t1=141
+2=COM_PIC_FM_JP.h
+t2=1
+Count=8
+3=CMD_FUN.c
+t3=1
+4=COM_FLASH.c
+t4=1
+5=COMPIC_CMMANDS.c
+t5=1
+6=COMPIC_FUN.c
+t6=1
+7=CW_JP.c
+t7=1
+8=PACKET_CODE_JP.c
+t8=1
+[COM_PIC_FM_JP.c]
+Type=4
+
+[defines]
+buildcount=19
+
+[fileformats]
+forcecoff=0
+[Units]
+Count=1
+1=COM_PIC_FM_JP (main)

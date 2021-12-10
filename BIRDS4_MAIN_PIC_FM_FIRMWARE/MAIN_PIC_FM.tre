@@ -1,0 +1,2930 @@
+ÀÄMAIN_PIC_FM
+   ÃÄMAIN  1/1572  Ram=6
+   ³  ÃÄ@cinit1  (Inline)  Ram=0
+   ³  ÃÄ@cinit2  (Inline)  Ram=0
+   ³  ÃÄsettings  0/142  Ram=0
+   ³  ³  ÃÄREAD_WRTITING_ADDRESS_LOCATION  0/584  Ram=6
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_OF  0/154  Ram=14
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_1  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_1  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_1  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_1  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_1  0/60  Ram=6
+   ³  ³  ³  ³  ÀÄ@SPI_XFER_1  0/60  Ram=6
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_SCF  0/154  Ram=14
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_2  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_2  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_2  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_2  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_2  0/60  Ram=6
+   ³  ³  ³  ³  ÀÄ@SPI_XFER_2  0/60  Ram=6
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_SMF  0/154  Ram=14
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_3  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_3  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_3  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_3  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_3  0/60  Ram=6
+   ³  ³  ³  ³  ÀÄ@SPI_XFER_3  0/60  Ram=6
+   ³  ³  ³  ÃÄTAKE_AD_INFO_from_EEPROM  0/202  Ram=13
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_SMF  0/154  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_SMF  0/154  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_SMF  0/154  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_SMF  0/154  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_SCF  0/154  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_SCF  0/154  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_SCF  0/154  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_SCF  0/154  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_OF  0/154  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_OF  0/154  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_OF  0/154  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_OF  0/154  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWRITE_DATA_BYTE_OF  0/148  Ram=14
+   ³  ³  ³  ³  ÃÄWRITE_ENABLE_OF  0/28  Ram=0
+   ³  ³  ³  ³  ³  ÀÄ@SPI_XFER_1  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_1  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_1  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_1  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_1  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_1  0/60  Ram=6
+   ³  ³  ³  ³  ÀÄ@SPI_XFER_1  0/60  Ram=6
+   ³  ³  ³  ÃÄWRITE_DATA_BYTE_SCF  0/148  Ram=14
+   ³  ³  ³  ³  ÃÄWRITE_ENABLE_SCF  0/28  Ram=0
+   ³  ³  ³  ³  ³  ÀÄ@SPI_XFER_2  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_2  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_2  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_2  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_2  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_2  0/60  Ram=6
+   ³  ³  ³  ³  ÀÄ@SPI_XFER_2  0/60  Ram=6
+   ³  ³  ³  ÃÄWRITE_DATA_BYTE_SMF  0/148  Ram=14
+   ³  ³  ³  ³  ÃÄWRITE_ENABLE_SMF  0/28  Ram=0
+   ³  ³  ³  ³  ³  ÀÄ@SPI_XFER_3  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_3  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_3  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_3  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_3  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_3  0/60  Ram=6
+   ³  ³  ³  ³  ÀÄ@SPI_XFER_3  0/60  Ram=6
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÀÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ÃÄCHECK_FLAG_INFO  0/136  Ram=3
+   ³  ³  ³  ÃÄTAKE_FLAG_INFO_FROM_OF  0/98  Ram=7
+   ³  ³  ³  ³  ÀÄREAD_DATA_BYTE_OF  0/154  Ram=14
+   ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄMAKE_FLAG_INFO  0/110  Ram=0
+   ³  ³  ³  ³  ÀÄCOLLECT_RESET_DATA  0/74  Ram=1
+   ³  ³  ³  ³     ÃÄDELETE_RESET  0/34  Ram=3
+   ³  ³  ³  ³     ÃÄ@PUTCHARI_BIU_4  0/12  Ram=0
+   ³  ³  ³  ³     ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ³     ÀÄwaiting  0/62  Ram=8
+   ³  ³  ³  ÀÄMAKE_FLAG_from_EEPROM  0/2588  Ram=5
+   ³  ³  ³     ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³     ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³     ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³     ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³     ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³     ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³     ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³     ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³     ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³     ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³     ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³     ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³     ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³     ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³     ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³     ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³     ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³     ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³     ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³     ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³     ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³     ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³     ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³     ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³     ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³     ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³     ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³     ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³     ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³     ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³     ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³     ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³     ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³     ÀÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ÃÄCHECK_ADDRESS_DATA  0/402  Ram=3
+   ³  ³  ³  ÃÄTAKE_ADDRESS_DATA_FROM_OF  0/98  Ram=7
+   ³  ³  ³  ³  ÀÄREAD_DATA_BYTE_OF  0/154  Ram=14
+   ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄMAKE_ADDRESS_DATA  0/162  Ram=0
+   ³  ³  ³  ÃÄTAKE_ADDRESS_DATA_FROM_SCF  0/106  Ram=7
+   ³  ³  ³  ³  ÀÄREAD_DATA_BYTE_SCF  0/154  Ram=14
+   ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄMAKE_ADDRESS_DATA  0/162  Ram=0
+   ³  ³  ³  ÃÄTAKE_ADDRESS_DATA_FROM_SMF  0/102  Ram=7
+   ³  ³  ³  ³  ÀÄREAD_DATA_BYTE_SMF  0/154  Ram=14
+   ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÀÄMAKE_ADDRESS_DATA  0/162  Ram=0
+   ³  ³  ÃÄBC_SETUP  0/28  Ram=0
+   ³  ³  ÃÄTurn_Off_CAM  0/6  Ram=0
+   ³  ³  ÃÄTurn_On_ADCS  0/6  Ram=0
+   ³  ³  ÃÄTurn_On_MBP  0/6  Ram=0
+   ³  ³  ÃÄTurn_OFF_BC  0/6  Ram=0
+   ³  ³  ÃÄCURRENT_FLAG_STATUS  0/962  Ram=0
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÀÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ÃÄCURRENT_ADDRESS_OF_FLASH  0/1626  Ram=15
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÀÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ÃÄCHANGE_ADDRESS_WRITING_LOCATION  0/724  Ram=16
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_OF  0/154  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_OF  0/154  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_OF  0/154  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_OF  0/154  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄSUBSECTOR_4KB_ERASE_OF  0/174  Ram=13
+   ³  ³  ³  ³  ÃÄWRITE_ENABLE_OF  0/28  Ram=0
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_1  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_1  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_1  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_1  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_1  0/60  Ram=6
+   ³  ³  ³  ³  ÀÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄSUBSECTOR_4KB_ERASE_SCF  0/174  Ram=13
+   ³  ³  ³  ³  ÃÄWRITE_ENABLE_SCF  0/28  Ram=0
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_2  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_2  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_2  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_2  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_2  0/60  Ram=6
+   ³  ³  ³  ³  ÀÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄSUBSECTOR_4KB_ERASE_SMF  0/186  Ram=13
+   ³  ³  ³  ³  ÃÄWRITE_ENABLE_SMF  0/28  Ram=0
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_3  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_3  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_3  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_3  0/60  Ram=6
+   ³  ³  ³  ³  ÃÄ@SPI_XFER_3  0/60  Ram=6
+   ³  ³  ³  ³  ÀÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄWRITE_DATA_BYTE_OF  0/148  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWRITE_DATA_BYTE_SCF  0/148  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWRITE_DATA_BYTE_SMF  0/148  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_OF  0/154  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ÃÄGet_RSV  0/190  Ram=7
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_OF  0/154  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄcount_reservation  0/56  Ram=3
+   ³  ³  ³  ÀÄinitialize_table  0/40  Ram=3
+   ³  ³  ÀÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ÃÄLOOP_SAT_LOG  0/106  Ram=0
+   ³  ³     ³  ÃÄsector_erase_OF  0/186  Ram=13
+   ³  ³     ³  ³  ÃÄWRITE_ENABLE_OF  0/28  Ram=0
+   ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ÃÄ@SPI_XFER_1  0/60  Ram=6
+   ³  ³     ³  ³  ÃÄ@SPI_XFER_1  0/60  Ram=6
+   ³  ³     ³  ³  ÃÄ@SPI_XFER_1  0/60  Ram=6
+   ³  ³     ³  ³  ÃÄ@SPI_XFER_1  0/60  Ram=6
+   ³  ³     ³  ³  ÃÄ@SPI_XFER_1  0/60  Ram=6
+   ³  ³     ³  ³  ÀÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³     ³  ³  ÃÄWRITE_ENABLE_SCF  0/28  Ram=0
+   ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ÃÄ@SPI_XFER_2  0/60  Ram=6
+   ³  ³     ³  ³  ÃÄ@SPI_XFER_2  0/60  Ram=6
+   ³  ³     ³  ³  ÃÄ@SPI_XFER_2  0/60  Ram=6
+   ³  ³     ³  ³  ÃÄ@SPI_XFER_2  0/60  Ram=6
+   ³  ³     ³  ³  ÃÄ@SPI_XFER_2  0/60  Ram=6
+   ³  ³     ³  ³  ÀÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ÃÄsector_erase_SMF  0/186  Ram=13
+   ³  ³     ³  ³  ÃÄWRITE_ENABLE_SMF  0/28  Ram=0
+   ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ÃÄ@SPI_XFER_3  0/60  Ram=6
+   ³  ³     ³  ³  ÃÄ@SPI_XFER_3  0/60  Ram=6
+   ³  ³     ³  ³  ÃÄ@SPI_XFER_3  0/60  Ram=6
+   ³  ³     ³  ³  ÃÄ@SPI_XFER_3  0/60  Ram=6
+   ³  ³     ³  ³  ÃÄ@SPI_XFER_3  0/60  Ram=6
+   ³  ³     ³  ³  ÀÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ÀÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³     ³     ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³     ÃÄCHANGE_ADDRESS_WRITING_LOCATION  0/724  Ram=16
+   ³  ³     ³     ³  ÀÄ*
+   ³  ³     ³     ÃÄSUBSECTOR_4KB_ERASE_OF  0/174  Ram=13
+   ³  ³     ³     ³  ÀÄ*
+   ³  ³     ³     ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³     ÃÄWRITE_DATA_BYTE_OF  0/148  Ram=14
+   ³  ³     ³     ³  ÀÄ*
+   ³  ³     ³     ÃÄSUBSECTOR_4KB_ERASE_SCF  0/174  Ram=13
+   ³  ³     ³     ³  ÀÄ*
+   ³  ³     ³     ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³     ÃÄWRITE_DATA_BYTE_SCF  0/148  Ram=14
+   ³  ³     ³     ³  ÀÄ*
+   ³  ³     ³     ÃÄSUBSECTOR_4KB_ERASE_SMF  0/186  Ram=13
+   ³  ³     ³     ³  ÀÄ*
+   ³  ³     ³     ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³     ÃÄWRITE_DATA_BYTE_SMF  0/148  Ram=14
+   ³  ³     ³     ³  ÀÄ*
+   ³  ³     ³     ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³     ³     ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³     ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³     ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³     ÀÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ÃÄCOLLECT_RESET_DATA  0/74  Ram=1
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄWRITE_DATA_BYTE_OF  0/148  Ram=14
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄWRITE_DATA_BYTE_SCF  0/148  Ram=14
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄWRITE_DATA_BYTE_SMF  0/148  Ram=14
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÀÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ÃÄFAB_TEST_OPERATION  0/754  Ram=3
+   ³  ³  ÃÄDelete_in_HK  0/34  Ram=3
+   ³  ³  ÃÄLOOP_FAB_HK_ADDRESS  0/320  Ram=8
+   ³  ³  ³  ÃÄsector_erase_OF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_SMF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄsector_erase_OF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄsector_erase_SMF  0/186  Ram=13
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄLOOP_FAB_CW_ADDRESS  0/336  Ram=8
+   ³  ³  ³  ÃÄsector_erase_OF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_SMF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄsector_erase_OF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄsector_erase_SMF  0/186  Ram=13
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³  ÃÄCW_RESPOND  0/204  Ram=2
+   ³  ³  ³  ³  ÃÄREFLESH_CW_ACK_for_COM  0/38  Ram=3
+   ³  ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ³  ÃÄ@PUTCHARI_BIU_2  0/12  Ram=0
+   ³  ³  ³  ³  ÃÄMBP_SYNC  0/388  Ram=0
+   ³  ³  ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ³  ³  ÃÄTurn_On_MBP  0/6  Ram=0
+   ³  ³  ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ³  ³  ÃÄCOLLECT_RESET_DATA  0/74  Ram=1
+   ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³  ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³  ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³  ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³  ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³  ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³  ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³  ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ³  ³  ÃÄCHECK_ACK_FROM_DC_10k  0/194  Ram=8
+   ³  ³  ³  ³  ³  ³  ÃÄ@GETCH_7_  0/74  Ram=1
+   ³  ³  ³  ³  ³  ³  ÃÄ@GETCH_7_  0/74  Ram=1
+   ³  ³  ³  ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ³  ³  ³  ÀÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ³  ³  ÀÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ³  ÀÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÀÄDelete_Buffer  0/38  Ram=3
+   ³  ³  ÃÄLOOP_FAB_HK_ADDRESS  0/320  Ram=8
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄLOOP_FAB_CW_ADDRESS  0/336  Ram=8
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄTurn_On_ADCS  0/6  Ram=0
+   ³  ³  ÃÄwaiting  0/62  Ram=8
+   ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄVERIFY_FABDATA  0/184  Ram=9
+   ³  ³  ³  ÃÄCOMMAND_TO_FAB  0/110  Ram=8
+   ³  ³  ³  ³  ÃÄSend_COMMAND_TO_FAB  0/10  Ram=1
+   ³  ³  ³  ³  ³  ÀÄ@PUTCHARI_BIU_3  0/12  Ram=0
+   ³  ³  ³  ³  ÀÄwaiting  0/62  Ram=8
+   ³  ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄCHECK_HKDATA  0/340  Ram=13
+   ³  ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ³  ÃÄDelete_HKDATA  0/34  Ram=3
+   ³  ³  ³  ³  ÃÄwaiting  0/62  Ram=8
+   ³  ³  ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ³  ÃÄMEASURE_BC_TEMP  0/56  Ram=0
+   ³  ³  ³  ³  ³  ÃÄBC_SETUP  0/28  Ram=0
+   ³  ³  ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ³  ³  ÀÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÀÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄCHECK_HKDATA  0/340  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄCHECK_HKDATA  0/340  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄGET_RESET_DATA  0/338  Ram=9
+   ³  ³  ³  ÃÄCOLLECT_RESET_DATA  0/74  Ram=1
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÀÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄMAKE_ADCS_HKDATA  0/124  Ram=5
+   ³  ³  ³  ÃÄGET_ADCS_SENSOR_DATA  0/394  Ram=14
+   ³  ³  ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄ@PUTCHAR_5_  0/70  Ram=1
+   ³  ³  ³  ³  ÃÄ@GETCH_5_  0/74  Ram=1
+   ³  ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ³  ÃÄ@PUTCHAR_5_  0/70  Ram=1
+   ³  ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ³  ÃÄ@GETCH_5_  0/74  Ram=1
+   ³  ³  ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ³  ÀÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMAKE_CW_FORMAT  0/12  Ram=0
+   ³  ³  ³  ÃÄMAKE_CW1_FORMAT  0/236  Ram=1
+   ³  ³  ³  ³  ÃÄDelete_CWFORMAT  0/34  Ram=3
+   ³  ³  ³  ³  ÃÄOPERATION_MODE_VALUE  0/74  Ram=1
+   ³  ³  ³  ³  ÃÄCHECK_SUNSHINE  0/24  Ram=1
+   ³  ³  ³  ³  ÃÄCHECK_SUNSHINE  0/24  Ram=1
+   ³  ³  ³  ³  ÃÄCHECK_SUNSHINE  0/24  Ram=1
+   ³  ³  ³  ³  ÃÄCHECK_SUNSHINE  0/24  Ram=1
+   ³  ³  ³  ³  ÃÄCHECK_SUNSHINE  0/24  Ram=1
+   ³  ³  ³  ³  ÀÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ÀÄMAKE_CW2_FORMAT  0/158  Ram=0
+   ³  ³  ³     ÃÄDelete_CWFORMAT  0/34  Ram=3
+   ³  ³  ³     ÃÄCONVERT_16bit_GYRO_to_8bit_X  0/152  Ram=12
+   ³  ³  ³     ³  ÃÄ@SITOF  0/80  Ram=2
+   ³  ³  ³     ³  ÃÄ@MULFF  0/246  Ram=11
+   ³  ³  ³     ³  ÃÄ@ADDFF  0/632  Ram=16
+   ³  ³  ³     ³  ÀÄ@SFTOI  0/60  Ram=4
+   ³  ³  ³     ÃÄCONVERT_16bit_GYRO_to_8bit_Y  0/152  Ram=12
+   ³  ³  ³     ³  ÃÄ@SITOF  0/80  Ram=2
+   ³  ³  ³     ³  ÃÄ@MULFF  0/246  Ram=11
+   ³  ³  ³     ³  ÃÄ@ADDFF  0/632  Ram=16
+   ³  ³  ³     ³  ÀÄ@SFTOI  0/60  Ram=4
+   ³  ³  ³     ÃÄCONVERT_16bit_GYRO_to_8bit_Z  0/152  Ram=12
+   ³  ³  ³     ³  ÃÄ@SITOF  0/80  Ram=2
+   ³  ³  ³     ³  ÃÄ@MULFF  0/246  Ram=11
+   ³  ³  ³     ³  ÃÄ@ADDFF  0/632  Ram=16
+   ³  ³  ³     ³  ÀÄ@SFTOI  0/60  Ram=4
+   ³  ³  ³     ÀÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³        ÀÄ*
+   ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSET_IDENTIFIER  0/46  Ram=0
+   ³  ³  ³  ÀÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄDISPLAY_CW  0/86  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÀÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄSend_HKDATA_to_SCF  0/24  Ram=4
+   ³  ³  ³  ÃÄSAVE_HKDATA_TO_SCF  0/94  Ram=10
+   ³  ³  ³  ³  ÀÄWRITE_DATA_BYTE_SCF  0/148  Ram=14
+   ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ÀÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄSend_HKDATA_to_SMF  0/24  Ram=4
+   ³  ³  ³  ÃÄSAVE_HKDATA_TO_SMF  0/90  Ram=10
+   ³  ³  ³  ³  ÀÄWRITE_DATA_BYTE_SMF  0/148  Ram=14
+   ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ÀÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄSend_HKDATA_to_OF  0/24  Ram=4
+   ³  ³  ³  ÃÄSAVE_HKDATA_TO_OF  0/86  Ram=10
+   ³  ³  ³  ³  ÀÄWRITE_DATA_BYTE_OF  0/148  Ram=14
+   ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ÀÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄSEND_CWFORMAT_TO_SCF  0/24  Ram=4
+   ³  ³  ³  ÃÄSAVE_CWFORMAT_TO_SCF  0/92  Ram=10
+   ³  ³  ³  ³  ÀÄWRITE_DATA_BYTE_SCF  0/148  Ram=14
+   ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ÀÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄSEND_CWFORMAT_TO_SMF  0/40  Ram=4
+   ³  ³  ³  ÃÄSAVE_CWFORMAT_TO_SMF  0/90  Ram=10
+   ³  ³  ³  ³  ÀÄWRITE_DATA_BYTE_SMF  0/148  Ram=14
+   ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄSEND_CWFORMAT_TO_OF  0/56  Ram=4
+   ³  ³  ³  ÃÄSAVE_CWFORMAT_TO_SCF  0/92  Ram=10
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄTRANSFER_DATA_NBYTE_TOPC_OF  0/116  Ram=13
+   ³  ³  ³  ³  ÃÄREAD_DATA_BYTE_OF  0/154  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÀÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³  ³  ÀÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSend_HKDATA_to_SCF  0/24  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSend_HKDATA_to_SMF  0/24  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSend_HKDATA_to_OF  0/24  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSEND_CWFORMAT_TO_SCF  0/24  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSEND_CWFORMAT_TO_SMF  0/40  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSEND_CWFORMAT_TO_OF  0/56  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ÀÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³     ÀÄ*
+   ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄCURRENT_ADDRESS_OF_FLASH  0/1626  Ram=15
+   ³  ³  ÀÄ*
+   ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³  ÃÄSUBSECTOR_4KB_ERASE_OF  0/174  Ram=13
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄWRITE_DATA_BYTE_OF  0/148  Ram=14
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄSUBSECTOR_4KB_ERASE_SCF  0/174  Ram=13
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄWRITE_DATA_BYTE_SCF  0/148  Ram=14
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄSUBSECTOR_4KB_ERASE_SMF  0/186  Ram=13
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄWRITE_DATA_BYTE_SMF  0/148  Ram=14
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³  ÃÄ@FLASHLOAD  0/22  Ram=0
+   ³  ³  ÃÄ@FLASHWR  0/30  Ram=0
+   ³  ³  ÃÄ@FLASHLOAD  0/22  Ram=0
+   ³  ³  ÃÄ@FLASHWR  0/30  Ram=0
+   ³  ³  ÃÄ@FLASHLOAD  0/22  Ram=0
+   ³  ³  ÃÄ@FLASHWR  0/30  Ram=0
+   ³  ³  ÃÄ@FLASHLOAD  0/22  Ram=0
+   ³  ³  ÃÄ@FLASHWR  0/30  Ram=0
+   ³  ³  ÃÄ@FLASHLOAD  0/22  Ram=0
+   ³  ³  ÃÄ@FLASHWR  0/30  Ram=0
+   ³  ³  ÃÄ@FLASHLOAD  0/22  Ram=0
+   ³  ³  ÃÄ@FLASHWR  0/30  Ram=0
+   ³  ³  ÃÄ@FLASHLOAD  0/22  Ram=0
+   ³  ³  ÃÄ@FLASHWR  0/30  Ram=0
+   ³  ³  ÃÄ@FLASHLOAD  0/22  Ram=0
+   ³  ³  ÃÄ@FLASHWR  0/30  Ram=0
+   ³  ³  ÃÄ@FLASHLOAD  0/22  Ram=0
+   ³  ³  ÃÄ@FLASHWR  0/30  Ram=0
+   ³  ³  ÃÄ@FLASHLOAD  0/22  Ram=0
+   ³  ³  ÃÄ@FLASHWR  0/30  Ram=0
+   ³  ³  ÃÄ@FLASHLOAD  0/22  Ram=0
+   ³  ³  ÃÄ@FLASHWR  0/30  Ram=0
+   ³  ³  ÃÄ@FLASHLOAD  0/22  Ram=0
+   ³  ³  ÃÄ@FLASHWR  0/30  Ram=0
+   ³  ³  ÃÄ@FLASHLOAD  0/22  Ram=0
+   ³  ³  ÃÄ@FLASHWR  0/30  Ram=0
+   ³  ³  ÃÄ@FLASHLOAD  0/22  Ram=0
+   ³  ³  ÃÄ@FLASHWR  0/30  Ram=0
+   ³  ³  ÃÄ@FLASHLOAD  0/22  Ram=0
+   ³  ³  ÃÄ@FLASHWR  0/30  Ram=0
+   ³  ³  ÃÄ@FLASHLOAD  0/22  Ram=0
+   ³  ³  ÃÄ@FLASHWR  0/30  Ram=0
+   ³  ³  ÃÄ@FLASHLOAD  0/22  Ram=0
+   ³  ³  ÃÄ@FLASHWR  0/30  Ram=0
+   ³  ³  ÃÄ@FLASHLOAD  0/22  Ram=0
+   ³  ³  ÃÄ@FLASHWR  0/30  Ram=0
+   ³  ³  ÃÄ@FLASHLOAD  0/22  Ram=0
+   ³  ³  ÃÄ@FLASHWR  0/30  Ram=0
+   ³  ³  ÃÄ@FLASHLOAD  0/22  Ram=0
+   ³  ³  ÃÄ@FLASHWR  0/30  Ram=0
+   ³  ³  ÃÄ@FLASHLOAD  0/22  Ram=0
+   ³  ³  ÀÄ@FLASHWR  0/30  Ram=0
+   ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ÃÄAntenna_Deploy  0/246  Ram=2
+   ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄ@PUTCHARI_BIU_4  0/12  Ram=0
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄBC_OPERATION  0/460  Ram=6
+   ³  ³  ³  ÃÄCHECK_BC_TEMP  0/488  Ram=4
+   ³  ³  ³  ³  ÃÄBC_SETUP  0/28  Ram=0
+   ³  ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ³  ÃÄ@ITOF  0/56  Ram=2
+   ³  ³  ³  ³  ÃÄ@MULFF  0/246  Ram=11
+   ³  ³  ³  ³  ÃÄ@DIVFF  0/352  Ram=14
+   ³  ³  ³  ³  ÃÄ@MULFF  0/246  Ram=11
+   ³  ³  ³  ³  ÃÄ@ADDFF  0/632  Ram=16
+   ³  ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ³  ÃÄ@PRINTF_L32D_115200_31766_31767FPFPF  0/416  Ram=13
+   ³  ³  ³  ³  ³  ÃÄ@MULFF  0/246  Ram=11
+   ³  ³  ³  ³  ³  ÃÄ@FTOSD  0/68  Ram=5
+   ³  ³  ³  ³  ³  ÃÄ@DIV3232  0/148  Ram=13
+   ³  ³  ³  ³  ³  ÀÄ@DIV3232  0/148  Ram=13
+   ³  ³  ³  ³  ÃÄ@FLT  0/122  Ram=10
+   ³  ³  ³  ³  ÀÄ@PRINTF_L32D_115200_31766_31767FPFPF  0/416  Ram=13
+   ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ÃÄTurn_ON_BC  0/8  Ram=0
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄCOLLECT_RESET_DATA  0/74  Ram=1
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄCHECK_BC_TEMP  0/488  Ram=4
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄTurn_OFF_BC  0/6  Ram=0
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄCHECK_BC_TEMP  0/488  Ram=4
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@ADDFF  0/632  Ram=16
+   ³  ³  ³  ÃÄ@FLT  0/122  Ram=10
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_L32D_115200_31766_31767FPFPF  0/416  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÀÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ÀÄ*
+   ³  ÃÄAUTOMATICAL_MISSION_CHECK  0/224  Ram=3
+   ³  ³  ÃÄCOLLECT_RESET_DATA  0/74  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³  ÃÄAUTO_MSN_AD_CHANGE  0/314  Ram=7
+   ³  ³  ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ³  ÃÄ@MUL3232  0/92  Ram=14
+   ³  ³  ³  ÃÄ@MUL3232  0/92  Ram=14
+   ³  ³  ³  ÀÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÀÄAUTOMATICAL_MSN_EXE  0/1500  Ram=2
+   ³  ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ÃÄDAY0  0/142  Ram=0
+   ³  ³     ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄHIGHSAMP_SENSOR_COLLECTION  0/256  Ram=14
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_5_  0/70  Ram=1
+   ³  ³     ³  ³  ÃÄLOOP_HIGH_SAMP_HK_ADDRESS  0/514  Ram=4
+   ³  ³     ³  ³  ³  ÃÄsector_erase_OF  0/186  Ram=13
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄsector_erase_SMF  0/186  Ram=13
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³  ³  ³  ÃÄsector_erase_OF  0/186  Ram=13
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄsector_erase_OF  0/186  Ram=13
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄsector_erase_OF  0/186  Ram=13
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄsector_erase_SMF  0/186  Ram=13
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄsector_erase_SMF  0/186  Ram=13
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÀÄsector_erase_SMF  0/186  Ram=13
+   ³  ³     ³  ³  ³     ÀÄ*
+   ³  ³     ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ÃÄHIGH_SAMP_FAB_OPERATION  0/632  Ram=2
+   ³  ³     ³  ³  ³  ÃÄTurn_On_ADCS  0/6  Ram=0
+   ³  ³     ³  ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³  ³  ³  ÃÄDelete_in_HK  0/34  Ram=3
+   ³  ³     ³  ³  ³  ÃÄVERIFY_FABDATA  0/184  Ram=9
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄGET_RESET_DATA  0/338  Ram=9
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄMAKE_ADCS_HKDATA  0/124  Ram=5
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄSET_IDENTIFIER  0/46  Ram=0
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄMAKE_CW_FORMAT  0/12  Ram=0
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄSend_HKDATA_to_SCF  0/24  Ram=4
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄSend_HKDATA_to_SMF  0/24  Ram=4
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄSend_HKDATA_to_OF  0/24  Ram=4
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄSEND_CWFORMAT_TO_SCF  0/24  Ram=4
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄSEND_CWFORMAT_TO_SMF  0/40  Ram=4
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄSEND_CWFORMAT_TO_OF  0/56  Ram=4
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄSAVE_HIGH_SAMP_DATA_TO_EACH_MEMORY  0/336  Ram=6
+   ³  ³     ³  ³  ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³     ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_SCF  0/148  Ram=14
+   ³  ³     ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³     ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_OF  0/148  Ram=14
+   ³  ³     ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³     ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_SMF  0/148  Ram=14
+   ³  ³     ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ³  ÀÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³     ³  ³  ³  ³     ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³     ³  ³  ³  ÃÄ@PRINTF_D_115200_31766_31767  0/218  Ram=6
+   ³  ³     ³  ³  ³  ³  ÃÄ@DIV88  0/44  Ram=3
+   ³  ³     ³  ³  ³  ³  ÀÄ@DIV88  0/44  Ram=3
+   ³  ³     ³  ³  ³  ÃÄDelete_in_HK  0/34  Ram=3
+   ³  ³     ³  ³  ³  ÃÄGET_RESET_DATA  0/338  Ram=9
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄVERIFY_HIGH_SAMP_FABDATA  0/136  Ram=5
+   ³  ³     ³  ³  ³  ³  ÃÄCOMMAND_TO_FAB  0/110  Ram=8
+   ³  ³     ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ³  ÃÄCHECK_HIGH_SAMP_FABDATA  0/312  Ram=9
+   ³  ³     ³  ³  ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³  ³  ³  ³  ³  ÃÄDelete_HKDATA  0/34  Ram=3
+   ³  ³     ³  ³  ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ³  ³  ³  ÃÄMEASURE_BC_TEMP  0/56  Ram=0
+   ³  ³     ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ³  ³  ÀÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ³  ³  ÃÄCHECK_HIGH_SAMP_FABDATA  0/312  Ram=9
+   ³  ³     ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ³  ÀÄCHECK_HIGH_SAMP_FABDATA  0/312  Ram=9
+   ³  ³     ³  ³  ³  ³     ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄGET_HIGH_SAMP_RESET_DATA  0/286  Ram=8
+   ³  ³     ³  ³  ³  ³  ÃÄCOLLECT_RESET_DATA  0/74  Ram=1
+   ³  ³     ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³  ³  ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³     ³  ³  ³  ³  ÃÄ@PUTCHARI_BIU_1  0/8  Ram=0
+   ³  ³     ³  ³  ³  ³  ÀÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³  ³  ³  ÃÄMAKE_HIGH_SAMP_ADCS_FORMAT  0/74  Ram=4
+   ³  ³     ³  ³  ³  ³  ÀÄGET_ADCS_SENSOR_DATA  0/394  Ram=14
+   ³  ³     ³  ³  ³  ³     ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄSET_IDENTIFIER  0/46  Ram=0
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ³  ÃÄCHECK_50_and_CW_RESPOND  0/14  Ram=0
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³     ³  ³  ³  ÃÄ@PRINTF_D_115200_31766_31767  0/218  Ram=6
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÀÄSAVE_HIGH_SAMP_DATA_TO_EACH_MEMORY  0/336  Ram=6
+   ³  ³     ³  ³  ³     ÀÄ*
+   ³  ³     ³  ³  ÃÄ@DIV3232  0/148  Ram=13
+   ³  ³     ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ÃÄBC_ON_30min  0/224  Ram=3
+   ³  ³     ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³  ³  ³  ÃÄ@PUTCHARI_BIU_4  0/12  Ram=0
+   ³  ³     ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ³  ÃÄBC_OPERATION  0/460  Ram=6
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ³  ÀÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³  ³  ³     ÀÄ*
+   ³  ³     ³  ³  ÃÄDelete_Buffer  0/38  Ram=3
+   ³  ³     ³  ³  ÃÄRESET_SATELLITE  0/26  Ram=0
+   ³  ³     ³  ³  ³  ÃÄSEND_CMD_FOR_RESET_SATELLITE  0/464  Ram=5
+   ³  ³     ³  ³  ³  ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³     ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ³  ÃÄSave_RSV  0/574  Ram=6
+   ³  ³     ³  ³  ³  ³  ³  ÃÄSUBSECTOR_4KB_ERASE_OF  0/174  Ram=13
+   ³  ³     ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ³  ³  ³  ÃÄSUBSECTOR_4KB_ERASE_SCF  0/174  Ram=13
+   ³  ³     ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ³  ³  ³  ÃÄSUBSECTOR_4KB_ERASE_SMF  0/186  Ram=13
+   ³  ³     ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_OF  0/148  Ram=14
+   ³  ³     ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_SMF  0/148  Ram=14
+   ³  ³     ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_SCF  0/148  Ram=14
+   ³  ³     ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_OF  0/148  Ram=14
+   ³  ³     ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_SCF  0/148  Ram=14
+   ³  ³     ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_SMF  0/148  Ram=14
+   ³  ³     ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ³  ³  ÃÄREAD_DATA_BYTE_OF  0/154  Ram=14
+   ³  ³     ³  ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ³  ³  ÀÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³     ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ³  ÃÄREAD_DATA_BYTE_OF  0/154  Ram=14
+   ³  ³     ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ³  ³  ÃÄREAD_DATA_BYTE_OF  0/154  Ram=14
+   ³  ³     ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ³  ³  ÃÄREAD_DATA_BYTE_OF  0/154  Ram=14
+   ³  ³     ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ³  ³  ÃÄREAD_DATA_BYTE_OF  0/154  Ram=14
+   ³  ³     ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ³  ³  ÃÄREAD_DATA_BYTE_OF  0/154  Ram=14
+   ³  ³     ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ³  ³  ÃÄ@PUTCHARI_BIU_4  0/12  Ram=0
+   ³  ³     ³  ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³  ³  ³  ³  ÀÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ³  ÀÄDELETE_RESET  0/34  Ram=3
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_5_  0/70  Ram=1
+   ³  ³     ³  ³  ÀÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÀÄUPDATE_ACK_for_COM  0/336  Ram=11
+   ³  ³     ³     ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³     ³     ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³     ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³     ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³     ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³     ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³     ³     ÃÄ@PRINTF_LU_115200_31766_31767  0/182  Ram=9
+   ³  ³     ³     ÃÄREFLESH_MSN_ACK_for_COM  0/38  Ram=3
+   ³  ³     ³     ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³     ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³     ÀÄ@PUTCHARI_BIU_2  0/12  Ram=0
+   ³  ³     ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³     ³  ÀÄ*
+   ³  ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ÃÄDAY1  0/138  Ram=0
+   ³  ³     ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄCAM_TEST_OPERATION  0/1072  Ram=5
+   ³  ³     ³  ³  ÃÄCAM_SETTINGS  0/98  Ram=0
+   ³  ³     ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³  ³  ³  ÃÄREFRESH_SECTOR_SMF  0/182  Ram=12
+   ³  ³     ³  ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³     ³  ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ³  ³  ÃÄsector_erase_SMF  0/186  Ram=13
+   ³  ³     ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ³  ÀÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³  ³  ³  ³     ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ³  ÃÄTurn_On_CAM  0/6  Ram=0
+   ³  ³     ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³  ³  ³  ÀÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄSend_Command_to_CAM  0/64  Ram=1
+   ³  ³     ³  ³  ³  ÃÄ@PUTCHAR_6_  0/70  Ram=1
+   ³  ³     ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³     ³  ³  ³  ÀÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ÃÄCHECK_ACK_FROM_CAM_10k  0/74  Ram=4
+   ³  ³     ³  ³  ³  ÀÄ@GETCH_6_  0/74  Ram=1
+   ³  ³     ³  ³  ÃÄLOOP_CAM_ADDRESS  0/92  Ram=0
+   ³  ³     ³  ³  ³  ÃÄsector_erase_OF  0/186  Ram=13
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄsector_erase_SMF  0/186  Ram=13
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÀÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³     ³  ³  ³     ÀÄ*
+   ³  ³     ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³  ³  ÃÄCAM_SYNC  0/242  Ram=0
+   ³  ³     ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³  ³  ³  ÃÄCOLLECT_RESET_DATA  0/74  Ram=1
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄ@PUTCHAR_6_  0/70  Ram=1
+   ³  ³     ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ³  ÃÄ@PUTCHAR_6_  0/70  Ram=1
+   ³  ³     ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ³  ÃÄ@PUTCHAR_6_  0/70  Ram=1
+   ³  ³     ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ³  ÃÄ@PUTCHAR_6_  0/70  Ram=1
+   ³  ³     ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ³  ÃÄ@PUTCHAR_6_  0/70  Ram=1
+   ³  ³     ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ³  ÃÄ@PUTCHAR_6_  0/70  Ram=1
+   ³  ³     ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ³  ÀÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_6_  0/70  Ram=1
+   ³  ³     ³  ³  ÃÄCHECK_ACK_FROM_CAM_10k  0/74  Ram=4
+   ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³  ³  ÃÄCHECK_ACK_FROM_CAM_200k  0/78  Ram=4
+   ³  ³     ³  ³  ³  ÀÄ@GETCH_6_  0/74  Ram=1
+   ³  ³     ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ÃÄTRANSFER_DATA_NBYTE_SMFtoSCF  0/146  Ram=17
+   ³  ³     ³  ³  ³  ÃÄREAD_DATA_BYTE_SMF  0/154  Ram=14
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÀÄWRITE_DATA_BYTE_SCF  0/148  Ram=14
+   ³  ³     ³  ³  ³     ÀÄ*
+   ³  ³     ³  ³  ÃÄTRANSFER_DATA_NBYTE_SMFtoOF  0/146  Ram=17
+   ³  ³     ³  ³  ³  ÃÄREAD_DATA_BYTE_SMF  0/154  Ram=14
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÀÄWRITE_DATA_BYTE_OF  0/148  Ram=14
+   ³  ³     ³  ³  ³     ÀÄ*
+   ³  ³     ³  ³  ÃÄTRANSFER_DATA_NBYTE_TOPC_SCF  0/122  Ram=13
+   ³  ³     ³  ³  ³  ÃÄREAD_DATA_BYTE_SCF  0/154  Ram=14
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÀÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ÃÄTRANSFER_DATA_NBYTE_SMFtoSCF  0/146  Ram=17
+   ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ÃÄTRANSFER_DATA_NBYTE_SMFtoOF  0/146  Ram=17
+   ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ÃÄTRANSFER_DATA_NBYTE_TOPC_SCF  0/122  Ram=13
+   ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ÃÄTRANSFER_DATA_NBYTE_SMFtoSCF  0/146  Ram=17
+   ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ÃÄTRANSFER_DATA_NBYTE_SMFtoOF  0/146  Ram=17
+   ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ÃÄTRANSFER_DATA_NBYTE_TOPC_SCF  0/122  Ram=13
+   ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³  ³  ÃÄTurn_Off_CAM  0/6  Ram=0
+   ³  ³     ³  ³  ÀÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÀÄUPDATE_ACK_for_COM  0/336  Ram=11
+   ³  ³     ³     ÀÄ*
+   ³  ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ÃÄDAY2  0/300  Ram=1
+   ³  ³     ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³     ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³  ³  ÃÄTurn_On_MBP  0/6  Ram=0
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³     ³  ³  ÃÄCHECK_ACK_FROM_DC_10k  0/194  Ram=8
+   ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ÃÄMBP_TLE_TRANSFER  0/220  Ram=8
+   ³  ³     ³  ³  ³  ÃÄREAD_DATA_BYTE_SMF  0/154  Ram=14
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³  ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³     ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ³  ÀÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³  ³  ÃÄTurn_Off_MBP  0/6  Ram=0
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄTurn_On_MBP  0/6  Ram=0
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³     ³  ³  ÃÄCHECK_ACK_FROM_DC_10k  0/194  Ram=8
+   ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ÀÄMBP_TLE_TRANSFER  0/220  Ram=8
+   ³  ³     ³  ³     ÀÄ*
+   ³  ³     ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄDATACOLLECTION_TEST_OPERATION  0/696  Ram=12
+   ³  ³     ³  ³  ÃÄDELETE_MBP_DATA  0/36  Ram=3
+   ³  ³     ³  ³  ÃÄREFRESH_SECTOR_OF  0/178  Ram=12
+   ³  ³     ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³     ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ³  ÃÄsector_erase_OF  0/186  Ram=13
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÀÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³  ³  ³     ÀÄ*
+   ³  ³     ³  ³  ÃÄREFRESH_SECTOR_SCF  0/186  Ram=12
+   ³  ³     ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³     ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÀÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³  ³  ³     ÀÄ*
+   ³  ³     ³  ³  ÃÄREFRESH_SECTOR_SMF  0/182  Ram=12
+   ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³     ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³  ³  ÃÄTurn_On_MBP  0/6  Ram=0
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³     ³  ³  ÃÄCHECK_ACK_FROM_MBP  0/126  Ram=4
+   ³  ³     ³  ³  ³  ÃÄ@GETCH_7_  0/74  Ram=1
+   ³  ³     ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³  ³  ³  ÀÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³     ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³     ³  ³  ÃÄGET_MBP_DATA  0/278  Ram=9
+   ³  ³     ³  ³  ³  ÃÄ@GETCH_7_  0/74  Ram=1
+   ³  ³     ³  ³  ³  ÃÄWRITE_DATA_BYTE_OF  0/148  Ram=14
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄWRITE_DATA_BYTE_SCF  0/148  Ram=14
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄWRITE_DATA_BYTE_SMF  0/148  Ram=14
+   ³  ³     ³  ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³     ³  ³  ³  ÃÄ@PRINTF_LD_115200_31766_31767  0/236  Ram=9
+   ³  ³     ³  ³  ³  ÀÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³     ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³     ³  ³  ÃÄTurn_Off_MBP  0/6  Ram=0
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄTurn_On_MBP  0/6  Ram=0
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³     ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ³  ÃÄ@PUTCHAR_7_  0/70  Ram=1
+   ³  ³     ³  ³  ÃÄCHECK_ACK_FROM_MBP  0/126  Ram=4
+   ³  ³     ³  ³  ³  ÀÄ*
+   ³  ³     ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³     ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³     ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³     ³  ³  ÀÄGET_MBP_DATA  0/278  Ram=9
+   ³  ³     ³  ³     ÀÄ*
+   ³  ³     ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄUPDATE_ACK_for_COM  0/336  Ram=11
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ÀÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³     ³     ÀÄ*
+   ³  ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ÃÄDAY3to4  0/298  Ram=1
+   ³  ³     ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄDATACOLLECTION_TEST_OPERATION  0/696  Ram=12
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄUPDATE_ACK_for_COM  0/336  Ram=11
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ÀÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³     ³     ÀÄ*
+   ³  ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ÃÄDAY5  0/122  Ram=0
+   ³  ³     ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ³  ÀÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³     ÀÄ*
+   ³  ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ÃÄDAY6  0/120  Ram=0
+   ³  ³     ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ³  ÀÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³     ÀÄ*
+   ³  ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ÃÄDAY7  0/330  Ram=1
+   ³  ³     ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄDATACOLLECTION_TEST_OPERATION  0/696  Ram=12
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄUPDATE_ACK_for_COM  0/336  Ram=11
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ÀÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³     ³     ÀÄ*
+   ³  ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ÃÄDAY8  0/126  Ram=0
+   ³  ³     ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ³  ÀÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³     ÀÄ*
+   ³  ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ÃÄDAY9  0/148  Ram=0
+   ³  ³     ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ³  ÀÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³     ÀÄ*
+   ³  ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ÃÄDAY10  0/148  Ram=0
+   ³  ³     ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ³  ÀÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³     ÀÄ*
+   ³  ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ÃÄDAY11  0/354  Ram=1
+   ³  ³     ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄDATACOLLECTION_TEST_OPERATION  0/696  Ram=12
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄUPDATE_ACK_for_COM  0/336  Ram=11
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ³  ÀÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³     ÀÄ*
+   ³  ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ÃÄDAY12  0/120  Ram=0
+   ³  ³     ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ³  ÀÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³     ÀÄ*
+   ³  ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ÃÄDAY13  0/292  Ram=1
+   ³  ³     ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄDATACOLLECTION_TEST_OPERATION  0/696  Ram=12
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄUPDATE_ACK_for_COM  0/336  Ram=11
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³     ³  ÀÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³     ³     ÀÄ*
+   ³  ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ÃÄDAY14to16  0/256  Ram=4
+   ³  ³     ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³     ³  ÃÄ@MUL3232  0/92  Ram=14
+   ³  ³     ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÀÄUPDATE_ACK_for_COM  0/336  Ram=11
+   ³  ³     ³     ÀÄ*
+   ³  ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ÃÄDAY17to27  0/228  Ram=4
+   ³  ³     ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³     ³  ÃÄ@MUL3232  0/92  Ram=14
+   ³  ³     ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÀÄUPDATE_ACK_for_COM  0/336  Ram=11
+   ³  ³     ³     ÀÄ*
+   ³  ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ÃÄDAY28to30  0/228  Ram=4
+   ³  ³     ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³     ³  ÃÄ@MUL3232  0/92  Ram=14
+   ³  ³     ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÀÄUPDATE_ACK_for_COM  0/336  Ram=11
+   ³  ³     ³     ÀÄ*
+   ³  ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ÃÄDAY31to35  0/230  Ram=4
+   ³  ³     ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³     ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³     ³  ÃÄ@MUL3232  0/92  Ram=14
+   ³  ³     ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³     ³  ³  ÀÄ*
+   ³  ³     ³  ÀÄUPDATE_ACK_for_COM  0/336  Ram=11
+   ³  ³     ³     ÀÄ*
+   ³  ³     ÀÄBC_ON_30min  0/224  Ram=3
+   ³  ³        ÀÄ*
+   ³  ÃÄAUTOMATICAL_MISSION_CHECK  0/224  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄAUTOMATICAL_MISSION_CHECK  0/224  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄAUTOMATICAL_MISSION_CHECK  0/224  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄAUTOMATICAL_MISSION_CHECK  0/224  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ÃÄADCS_TLE_TRANSFER  0/242  Ram=8
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄTurn_On_ADCS  0/6  Ram=0
+   ³  ³  ÃÄREAD_DATA_BYTE_OF  0/154  Ram=14
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PUTCHAR_5_  0/70  Ram=1
+   ³  ³  ÃÄCHECK_ACK_FROM_ADCS_10k  0/76  Ram=4
+   ³  ³  ³  ÀÄ@GETCH_5_  0/74  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄ@PUTCHAR_5_  0/70  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÀÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ÃÄADCS_GAIN_TRANSFER  0/230  Ram=8
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄTurn_On_ADCS  0/6  Ram=0
+   ³  ³  ÃÄREAD_DATA_BYTE_OF  0/154  Ram=14
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PUTCHAR_5_  0/70  Ram=1
+   ³  ³  ÃÄCHECK_ACK_FROM_ADCS_10k  0/76  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄ@PUTCHAR_5_  0/70  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÀÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ÃÄADCS_UTC_TRANSFER  0/300  Ram=8
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄTurn_On_ADCS  0/6  Ram=0
+   ³  ³  ÃÄ@PUTCHAR_5_  0/70  Ram=1
+   ³  ³  ÃÄCHECK_ACK_FROM_ADCS_10k  0/76  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄREAD_DATA_BYTE_OF  0/154  Ram=14
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄ@PUTCHAR_5_  0/70  Ram=1
+   ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÀÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ÃÄBC_ON_30min  0/224  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄRESET_SATELLITE  0/26  Ram=0
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ÃÄFAB_TEST_OPERATION  0/754  Ram=3
+   ³  ³  ÀÄ*
+   ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ÀÄ*
+   ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ÃÄDELETE_CMD_FROM_PC  0/34  Ram=3
+   ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ÃÄCHECK_MEMORY_FUNCTION  0/52  Ram=1
+   ³  ÃÄEXECUTE_MISSION_from_COM  0/3390  Ram=13
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÃÄ@PUTCHARI_BIU_2  0/12  Ram=0
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄ@PUTCHARI_BIU_2  0/12  Ram=0
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÀÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CAM  0/38  Ram=0
+   ³  ³  ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄCAM_DEPLOYMENT_OPERATION  0/324  Ram=2
+   ³  ³  ³  ÃÄCAM_SETTINGS  0/98  Ram=0
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄSend_Command_to_CAM  0/64  Ram=1
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄCHECK_ACK_FROM_CAM_10k  0/74  Ram=4
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄLOOP_CAM_ADDRESS  0/92  Ram=0
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄCAM_SYNC  0/242  Ram=0
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_6_  0/70  Ram=1
+   ³  ³  ³  ÃÄCHECK_ACK_FROM_CAM_10k  0/74  Ram=4
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄCHECK_ACK_FROM_CAM_200k  0/78  Ram=4
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄTurn_Off_CAM  0/6  Ram=0
+   ³  ³  ³  ÀÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄCAM_TEST_OPERATION  0/1072  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CAM  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄTurn_On_CAM  0/6  Ram=0
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CAM  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄTurn_Off_CAM  0/6  Ram=0
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ÃÄUPLINK_SUCCESS_ADCS  0/38  Ram=0
+   ³  ³  ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄADCS_TEST_OPERATION  0/982  Ram=11
+   ³  ³  ³  ÃÄLOOP_ADCS_SENSOR_ADDRESS  0/396  Ram=5
+   ³  ³  ³  ³  ÃÄsector_erase_OF  0/186  Ram=13
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄsector_erase_SMF  0/186  Ram=13
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ³  ÃÄsector_erase_OF  0/186  Ram=13
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÀÄsector_erase_SMF  0/186  Ram=13
+   ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ÃÄADCS_SETTINGS  0/14  Ram=0
+   ³  ³  ³  ³  ÃÄDelete_Buffer  0/38  Ram=3
+   ³  ³  ³  ³  ÀÄDELETE_ADCS_SENSOR  0/36  Ram=3
+   ³  ³  ³  ÃÄGET_INITIAL_TIME  0/862  Ram=6
+   ³  ³  ³  ³  ÃÄCOLLECT_RESET_DATA  0/74  Ram=1
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_OF  0/148  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_OF  0/148  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_OF  0/148  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_OF  0/148  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_OF  0/148  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_SCF  0/148  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_SCF  0/148  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_SCF  0/148  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_SCF  0/148  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_SCF  0/148  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_SMF  0/148  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_SMF  0/148  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_SMF  0/148  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_SMF  0/148  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÀÄWRITE_DATA_BYTE_SMF  0/148  Ram=14
+   ³  ³  ³  ³     ÀÄ*
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄTurn_On_ADCS  0/6  Ram=0
+   ³  ³  ³  ÃÄ@PUTCHAR_5_  0/70  Ram=1
+   ³  ³  ³  ÃÄCHECK_ACK_FROM_ADCS_10k  0/76  Ram=4
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_5_  0/70  Ram=1
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_5_  0/70  Ram=1
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_5_  0/70  Ram=1
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_5_  0/70  Ram=1
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄ@goto44481  0/58  Ram=0
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄSend_COMMAND_TO_FAB  0/10  Ram=1
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄGET_ADCS_MSN_DATA  0/1036  Ram=14
+   ³  ³  ³  ³  ÃÄ@GETCH_5_  0/74  Ram=1
+   ³  ³  ³  ³  ÃÄ@GETCH_5_  0/74  Ram=1
+   ³  ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ³  ÃÄSend_COMMAND_TO_FAB  0/10  Ram=1
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_OF  0/148  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_SCF  0/148  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_SMF  0/148  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_OF  0/148  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_OF  0/148  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_SCF  0/148  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_SCF  0/148  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_SMF  0/148  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_SMF  0/148  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_OF  0/148  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_SCF  0/148  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_SMF  0/148  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄ@PRINTF_LD_115200_31766_31767  0/236  Ram=9
+   ³  ³  ³  ³  ÃÄREAD_DATA_BYTE_SMF  0/154  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÀÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄGET_ADCS_MSN_DATA  0/1036  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@DIV1616  0/70  Ram=5
+   ³  ³  ³  ÃÄCOLLECT_RESET_DATA  0/74  Ram=1
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄGET_ADCS_MSN_DATA  0/1036  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄTurn_Off_ADCS  0/6  Ram=0
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄGET_ADCS_MSN_DATA  0/1036  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄRESET_SATELLITE  0/26  Ram=0
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄTurn_Off_ADCS  0/6  Ram=0
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄTurn_On_ADCS  0/6  Ram=0
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄADCS_TLE_TRANSFER  0/242  Ram=8
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄADCS_GAIN_TRANSFER  0/230  Ram=8
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄADCS_UTC_TRANSFER  0/300  Ram=8
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄRESET_SATELLITE  0/26  Ram=0
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄCOLLECT_RESET_DATA  0/74  Ram=1
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_ADCS  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄADCS_TLE_JOIN  0/634  Ram=17
+   ³  ³  ³  ÃÄ@goto43664  0/46  Ram=0
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_OF  0/154  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄSUBSECTOR_4KB_ERASE_OF  0/174  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄSUBSECTOR_4KB_ERASE_SCF  0/174  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄSUBSECTOR_4KB_ERASE_SMF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄWRITE_DATA_BYTE_OF  0/148  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWRITE_DATA_BYTE_SCF  0/148  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWRITE_DATA_BYTE_SMF  0/148  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_SMF  0/154  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_ADCS  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄADCS_GAIN_JOIN  0/654  Ram=17
+   ³  ³  ³  ÃÄ@goto43733  0/42  Ram=0
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_OF  0/154  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄSUBSECTOR_4KB_ERASE_OF  0/174  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄSUBSECTOR_4KB_ERASE_SCF  0/174  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄSUBSECTOR_4KB_ERASE_SMF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄWRITE_DATA_BYTE_OF  0/148  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWRITE_DATA_BYTE_SCF  0/148  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWRITE_DATA_BYTE_SMF  0/148  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_SMF  0/154  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_ADCS  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄADCS_TLE_TRANSFER  0/242  Ram=8
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_ADCS  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄADCS_GAIN_TRANSFER  0/230  Ram=8
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_ADCS  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄADCS_FLASH_CHECK  0/192  Ram=7
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄTurn_On_ADCS  0/6  Ram=0
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄSUBSECTOR_4KB_ERASE_OF  0/174  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄSUBSECTOR_4KB_ERASE_SCF  0/174  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄSUBSECTOR_4KB_ERASE_SMF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄ@PUTCHAR_5_  0/70  Ram=1
+   ³  ³  ³  ÃÄCHECK_ACK_FROM_ADCS_10k  0/76  Ram=4
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄGET_ADCS_FLASH  0/326  Ram=11
+   ³  ³  ³  ³  ÃÄ@GETCH_5_  0/74  Ram=1
+   ³  ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_OF  0/148  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_SCF  0/148  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄWRITE_DATA_BYTE_SMF  0/148  Ram=14
+   ³  ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ³  ÃÄ@PRINTF_LD_115200_31766_31767  0/236  Ram=9
+   ³  ³  ³  ³  ÀÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÀÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_ADCS  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄADCS_UTC_UPLINK  0/330  Ram=13
+   ³  ³  ³  ÃÄCOLLECT_RESET_DATA  0/74  Ram=1
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄSUBSECTOR_4KB_ERASE_OF  0/174  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄSUBSECTOR_4KB_ERASE_SCF  0/174  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄSUBSECTOR_4KB_ERASE_SMF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWRITE_DATA_BYTE_OF  0/148  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWRITE_DATA_BYTE_SCF  0/148  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWRITE_DATA_BYTE_SMF  0/148  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄADCS_UTC_TRANSFER  0/300  Ram=8
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_MBP  0/38  Ram=0
+   ³  ³  ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄDATACOLLECTION_TEST_OPERATION  0/696  Ram=12
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_MBP  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_MBP  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_MBP  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_MBP  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_MBP  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_5_  0/70  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_5_  0/70  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_5_  0/70  Ram=1
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_MBP  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_MBP  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_MBP  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_MBP  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMISSION_FLAG_STATUS  0/594  Ram=1
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÀÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSEND_CMD_FOR_RESET_SATELLITE  0/464  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄCLEAR_BC_FLAG  0/20  Ram=0
+   ³  ³  ³  ÀÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMAKE_BC_FLAG_1  0/22  Ram=0
+   ³  ³  ³  ÀÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMAKE_BC_FLAG_2  0/22  Ram=0
+   ³  ³  ³  ÀÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMAKE_BC_FLAG_3  0/22  Ram=0
+   ³  ³  ³  ÀÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMAKE_BC_FLAG_4  0/22  Ram=0
+   ³  ³  ³  ÀÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄCount_Kill_Flag  0/84  Ram=0
+   ³  ³  ³  ÃÄ@PUTCHARI_BIU_3  0/12  Ram=0
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÀÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄDisable_Kill  0/76  Ram=0
+   ³  ³  ³  ÃÄ@PUTCHARI_BIU_3  0/12  Ram=0
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÀÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_HSSC  0/38  Ram=0
+   ³  ³  ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ÃÄHIGHSAMP_SENSOR_COLLECTION  0/256  Ram=14
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄGIVE_ACCESS_SCF_Nsec  0/180  Ram=4
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_D_115200_31766_31767  0/218  Ram=6
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PUTCHARI_BIU_2  0/12  Ram=0
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÀÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄERASE_EEPROM_INFO  0/24  Ram=0
+   ³  ³  ³  ÀÄ@FLASHWR  0/30  Ram=0
+   ³  ³  ÃÄMEMORY_ERASE  0/2156  Ram=6
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄsector_erase_OF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_SMF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_OF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_SMF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_OF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_OF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_OF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_OF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_OF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_OF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_SMF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_SMF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_SMF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_SMF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_SMF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_SMF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_OF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_OF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_OF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_SMF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_SMF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_SMF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_OF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_SCF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄsector_erase_SMF  0/186  Ram=13
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_D_115200_31766_31767  0/218  Ram=6
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÀÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄCURRENT_FLAG_STATUS  0/962  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄDisp_RSV  0/560  Ram=2
+   ³  ³  ³  ÃÄGet_RSV  0/190  Ram=7
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÀÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ÃÄCW_RESPOND  0/204  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREFRESH_SECTOR_OF  0/178  Ram=12
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREFRESH_SECTOR_SCF  0/186  Ram=12
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREFRESH_SECTOR_SMF  0/182  Ram=12
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄTRANSFER_SECTOR_OF2SCF  0/380  Ram=24
+   ³  ³  ³  ÃÄREFRESH_SECTOR_SCF  0/186  Ram=12
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_OF  0/154  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWRITE_DATA_BYTE_SCF  0/148  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÀÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄTRANSFER_SECTOR_OF2SMF  0/378  Ram=24
+   ³  ³  ³  ÃÄREFRESH_SECTOR_SMF  0/182  Ram=12
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_OF  0/154  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWRITE_DATA_BYTE_SMF  0/148  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÀÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄTRANSFER_SECTOR_SCF2OF  0/380  Ram=24
+   ³  ³  ³  ÃÄREFRESH_SECTOR_OF  0/178  Ram=12
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_SCF  0/154  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWRITE_DATA_BYTE_OF  0/148  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÀÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄTRANSFER_SECTOR_SCF2SMF  0/386  Ram=24
+   ³  ³  ³  ÃÄREFRESH_SECTOR_SMF  0/182  Ram=12
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_SCF  0/154  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWRITE_DATA_BYTE_SMF  0/148  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÀÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄTRANSFER_SECTOR_SMF2OF  0/378  Ram=24
+   ³  ³  ³  ÃÄREFRESH_SECTOR_OF  0/178  Ram=12
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_SMF  0/154  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWRITE_DATA_BYTE_OF  0/148  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÀÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄTRANSFER_SECTOR_SMF2SCF  0/384  Ram=24
+   ³  ³  ³  ÃÄREFRESH_SECTOR_SCF  0/186  Ram=12
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄREAD_DATA_BYTE_SMF  0/154  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄWRITE_DATA_BYTE_SCF  0/148  Ram=14
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÀÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSend_COMMAND_TO_FAB  0/10  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSend_COMMAND_TO_FAB  0/10  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSend_COMMAND_TO_FAB  0/10  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄRSV_DATA_DOWNLOAD  0/158  Ram=11
+   ³  ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÀÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PUTCHAR_5_  0/70  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PUTCHAR_5_  0/70  Ram=1
+   ³  ³  ÀÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ÃÄRemove_1_Reservation  0/158  Ram=4
+   ³  ³  ÃÄsort_table  0/800  Ram=13
+   ³  ³  ÃÄcount_reservation  0/56  Ram=3
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÀÄSave_RSV  0/574  Ram=6
+   ³  ³     ÀÄ*
+   ³  ÃÄReserve_next  0/54  Ram=0
+   ³  ³  ÀÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ÃÄEXECUTE_MISSION_from_COM  0/3390  Ram=13
+   ³  ³  ÀÄ*
+   ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ÀÄ*
+   ³  ÃÄReserve_command_COM  0/80  Ram=0
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄinput_reservation_COM  0/530  Ram=4
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄsort_table  0/800  Ram=13
+   ³  ³  ³  ÀÄcount_reservation  0/56  Ram=3
+   ³  ³  ÀÄSave_RSV  0/574  Ram=6
+   ³  ³     ÀÄ*
+   ³  ÃÄDELETE_CMD_FROM_PC  0/34  Ram=3
+   ³  ÃÄDelete_Buffer  0/38  Ram=3
+   ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ÃÄEXECUTE_MISSION_from_PC  1/2854  Ram=13
+   ³  ³  ÃÄUPLINK_SUCCESS_CAM  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄCAM_DEPLOYMENT_OPERATION  0/324  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄCAM_TEST_OPERATION  0/1072  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CAM  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄTurn_On_CAM  0/6  Ram=0
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CAM  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄTurn_Off_CAM  0/6  Ram=0
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ÃÄUPLINK_SUCCESS_ADCS  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄADCS_TEST_OPERATION  0/982  Ram=11
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_ADCS  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄADCS_TLE_JOIN  0/634  Ram=17
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_ADCS  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄADCS_GAIN_JOIN  0/654  Ram=17
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_ADCS  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄADCS_TLE_TRANSFER  0/242  Ram=8
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_ADCS  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄADCS_GAIN_TRANSFER  0/230  Ram=8
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_ADCS  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄADCS_FLASH_CHECK  0/192  Ram=7
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_ADCS  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄADCS_UTC_UPLINK  0/330  Ram=13
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_MBP  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄDATACOLLECTION_TEST_OPERATION  0/696  Ram=12
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄUPLINK_SUCCESS_MBP  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_MBP  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_MBP  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_MBP  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_MBP  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_5_  0/70  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_5_  0/70  Ram=1
+   ³  ³  ÃÄ@PUTCHAR_5_  0/70  Ram=1
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_MBP  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_MBP  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_MBP  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREPLY_TO_COM  0/280  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_MBP  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMISSION_TEST_OPERATION  0/444  Ram=8
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMISSION_FLAG_STATUS  0/594  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄCURRENT_ADDRESS_OF_FLASH  0/1626  Ram=15
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSEND_CMD_FOR_RESET_SATELLITE  0/464  Ram=5
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄCLEAR_BC_FLAG  0/20  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMAKE_BC_FLAG_1  0/22  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMAKE_BC_FLAG_2  0/22  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMAKE_BC_FLAG_3  0/22  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMAKE_BC_FLAG_4  0/22  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄCount_Kill_Flag  0/84  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄDisable_Kill  0/76  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_HSSC  0/38  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@MUL1616  0/34  Ram=5
+   ³  ³  ÃÄHIGHSAMP_SENSOR_COLLECTION  0/256  Ram=14
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSTORE_ADRESS_DATA_TO_FLASH  0/682  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄGIVE_ACCESS_SCF_Nsec  0/180  Ram=4
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄERASE_EEPROM_INFO  0/24  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄMEMORY_ERASE  0/2156  Ram=6
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄCURRENT_FLAG_STATUS  0/962  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄDisp_RSV  0/560  Ram=2
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄtable_refresh  0/66  Ram=3
+   ³  ³  ³  ÀÄSave_RSV  0/574  Ram=6
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄRESET_FLAG_DATA  0/46  Ram=0
+   ³  ³  ³  ÃÄSTORE_FLAG_INFO  0/512  Ram=6
+   ³  ³  ³  ³  ÀÄ*
+   ³  ³  ³  ÀÄWRITE_FLAG_to_EEPROM  0/1766  Ram=6
+   ³  ³  ³     ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREFRESH_SECTOR_OF  0/178  Ram=12
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREFRESH_SECTOR_SCF  0/186  Ram=12
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄREFRESH_SECTOR_SMF  0/182  Ram=12
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄTRANSFER_SECTOR_OF2SCF  0/380  Ram=24
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄTRANSFER_SECTOR_SMF2SCF  0/384  Ram=24
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄTRANSFER_SECTOR_SCF2OF  0/380  Ram=24
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSend_COMMAND_TO_FAB  0/10  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSend_COMMAND_TO_FAB  0/10  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄSend_COMMAND_TO_FAB  0/10  Ram=1
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄRSV_DATA_DOWNLOAD  0/158  Ram=11
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PUTCHAR_5_  0/70  Ram=1
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄUPLINK_SUCCESS_CHECK  0/18  Ram=0
+   ³  ³  ³  ÀÄ*
+   ³  ³  ÃÄ@PUTCHAR_5_  0/70  Ram=1
+   ³  ³  ÀÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ÃÄSAVE_SAT_LOG  0/324  Ram=9
+   ³  ³  ÀÄ*
+   ³  ÃÄReserve_command_PC  0/80  Ram=0
+   ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ÃÄinput_reservation_PC  0/590  Ram=4
+   ³  ³  ³  ÃÄ@PSTRINGCN_115200_31766_31767  0/50  Ram=4
+   ³  ³  ³  ÃÄ@PRINTF_X_115200_31766_31767  0/70  Ram=2
+   ³  ³  ³  ÃÄ@PSTRINGC_115200_31766_31767  0/42  Ram=3
+   ³  ³  ³  ÃÄsort_table  0/800  Ram=13
+   ³  ³  ³  ÀÄcount_reservation  0/56  Ram=3
+   ³  ³  ÀÄSave_RSV  0/574  Ram=6
+   ³  ³     ÀÄ*
+   ³  ÃÄDELETE_CMD_FROM_PC  0/34  Ram=3
+   ³  ÃÄDelete_Buffer  0/38  Ram=3
+   ³  ÃÄ@delay_ms1  0/42  Ram=1
+   ³  ÀÄ@delay_ms1  0/42  Ram=1
+   ÃÄintval  0/96  Ram=0
+   ÃÄUART1_RXD  0/36  Ram=2
+   ÃÄUART2_RXD  0/50  Ram=4
+   ³  ÀÄ@GETCH_BIU_2  0/28  Ram=0
+   ÃÄUART3_RXD  0/70  Ram=4
+   ³  ÃÄ@GETCH_BIU_3  0/28  Ram=0
+   ³  ÀÄ@DIV88  0/44  Ram=3
+   ÀÄUART4_RXD  0/86  Ram=4
+      ÃÄ@GETCH_BIU_4  0/28  Ram=0
+      ÀÄ@DIV88  0/44  Ram=3
